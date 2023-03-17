@@ -1,0 +1,103 @@
+[{
+  "_id": {
+    "$oid": "6412b15601f138cf0934d0ba"
+  },
+  "serial_number": "8345yy6s32sss147",
+  "readable_name": "myfirs3tyy",
+  "ipv4_address": "152.325.684.511",
+  "devices": [],
+  "__v": 4
+},{
+  "_id": {
+    "$oid": "641355d72a52d4fbae4c8a44"
+  },
+  "serial_number": "AAAA888888",
+  "readable_name": "mySecondary",
+  "ipv4_address": "152.325.684.000",
+  "devices": [
+    {
+      "uid": 333333,
+      "vendor": "sasafasf",
+      "status": true,
+      "_id": {
+        "$oid": "641382f43b70ade2d76ebe20"
+      },
+      "date": {
+        "$date": "2023-03-16T20:58:28.093Z"
+      }
+    },
+    {
+      "uid": 111111,
+      "vendor": "sasafasf",
+      "status": true,
+      "_id": {
+        "$oid": "64138318709791fcbb7fcebf"
+      },
+      "date": {
+        "$date": "2023-03-16T20:59:04.212Z"
+      }
+    },
+    {
+      "uid": 555555,
+      "vendor": "sasafasf",
+      "status": true,
+      "_id": {
+        "$oid": "641383a4301d93b9291ed6a1"
+      },
+      "date": {
+        "$date": "2023-03-16T21:01:24.612Z"
+      }
+    }
+  ],
+  "__v": 10
+},{
+  "_id": {
+    "$oid": "641356a62a52d4fbae4c8a55"
+  },
+  "serial_number": "WWWW1111",
+  "readable_name": "myTercero",
+  "ipv4_address": "152.325.684.222",
+  "devices": [
+    {
+      "uid": 8888888,
+      "vendor": "sasafasf",
+      "status": true,
+      "_id": {
+        "$oid": "641385029358e19eb161f8cd"
+      },
+      "date": {
+        "$date": "2023-03-16T21:07:14.682Z"
+      }
+    },
+    {
+      "uid": 10101010,
+      "vendor": "sasafasf",
+      "status": true,
+      "_id": {
+        "$oid": "6413850b9358e19eb161f8d2"
+      },
+      "date": {
+        "$date": "2023-03-16T21:07:23.210Z"
+      }
+    }
+  ],
+  "__v": 7
+},{
+  "_id": {
+    "$oid": "641365526a1fba134464c934"
+  },
+  "serial_number": "vaya456321",
+  "readable_name": "cuartoo",
+  "ipv4_address": "152.325.333.222",
+  "devices": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "641419db90529f72f2329118"
+  },
+  "serial_number": "vaya7821",
+  "readable_name": "cuartoo",
+  "ipv4_address": "152.315.333.222",
+  "devices": [],
+  "__v": 0
+}]

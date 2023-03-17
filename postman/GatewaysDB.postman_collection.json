@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "89c768d2-0bac-4bb8-9ea0-3ed6e3d1dff5",
+		"name": "GatewaysDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Gateways: Get all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/gateways",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gateways"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gateways: Get root",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gateways: Post Getway",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"serial_number\":\"1547896\", \r\n   \"readable_name\":\"myfirst\",\r\n   \"ipv4_address\":\"102.325.654.897\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/gateways",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gateways"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gateways: Get one Gateway by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/gateways/64128e1ce942e8837b6ffac1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gateways",
+						"64128e1ce942e8837b6ffac1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gateways: Push one device in Gateway by id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"uid\":\"333333\", \r\n   \"vendor\":\"sasafasf\",\r\n   \"status\":true\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/gateways/641355d72a52d4fbae4c8a44/device",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gateways",
+						"641355d72a52d4fbae4c8a44",
+						"device"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gateways: Delete one device in collections Gateway by id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"uid\":\"808080\", \r\n   \"vendor\":\"smaceofelico\",\r\n   \"status\":true\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/gateways/641356a62a52d4fbae4c8a55/device",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gateways",
+						"641356a62a52d4fbae4c8a55",
+						"device"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
